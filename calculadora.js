@@ -74,4 +74,4 @@ function calcular(event) {
     n2 = ""
     operador = ""
   }
-}
+
