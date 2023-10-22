@@ -61,10 +61,10 @@ function calcular(event) {
         resp = parseInt(n1) / parseInt(n2);
         break;
       case "^":
-        //resp=x**y; um possivel caminho de resoluçao tambem.
-        resp = Math.pow(x,y);
-    }
-      console.log(resp);
+        //resp = parseInt(n1)** parseInt(n2); um possivel caminho de resoluçao tambem.
+        resp = Math.pow(parseInt(n1),parseInt(n2));
+        break;
+
       default:
         break;
     }
@@ -74,4 +74,4 @@ function calcular(event) {
     n2 = ""
     operador = ""
   }
-
+}
